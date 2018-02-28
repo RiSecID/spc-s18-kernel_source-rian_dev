@@ -1,0 +1,1 @@
+cmd_fs/notify/inotify/built-in.o :=  /home/devnull/Lemon_S8/ndk/toolchains/arm-linux-androideabi-4.8/bin/arm-linux-androideabi-ld -EL    -r -o fs/notify/inotify/built-in.o fs/notify/inotify/inotify_fsnotify.o fs/notify/inotify/inotify_user.o 

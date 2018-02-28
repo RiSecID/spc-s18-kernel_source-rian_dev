@@ -1,0 +1,1 @@
+cmd_crypto/crypto_blkcipher.o := /home/devnull/Lemon_S8/ndk/toolchains/arm-linux-androideabi-4.8/bin/arm-linux-androideabi-ld -EL    -r -o crypto/crypto_blkcipher.o crypto/ablkcipher.o crypto/blkcipher.o 

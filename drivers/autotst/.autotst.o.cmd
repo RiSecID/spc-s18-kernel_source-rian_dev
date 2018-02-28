@@ -1,0 +1,1 @@
+cmd_drivers/autotst/autotst.o := /home/devnull/Lemon_S8/ndk/toolchains/arm-linux-androideabi-4.8/bin/arm-linux-androideabi-ld -EL    -r -o drivers/autotst/autotst.o drivers/autotst/autotstdrv.o drivers/autotst/dispc.o drivers/autotst/dsi.o drivers/autotst/lcd_dummy.o drivers/autotst/mipi_dsih_api.o drivers/autotst/mipi_dsih_dphy.o drivers/autotst/mipi_dsih_hal.o 

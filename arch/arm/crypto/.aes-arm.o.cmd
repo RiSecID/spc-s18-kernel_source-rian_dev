@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/aes-arm.o := /home/devnull/Lemon_S8/ndk/toolchains/arm-linux-androideabi-4.8/bin/arm-linux-androideabi-ld -EL    -r -o arch/arm/crypto/aes-arm.o arch/arm/crypto/aes-armv4.o arch/arm/crypto/aes_glue.o 

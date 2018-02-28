@@ -1,0 +1,1 @@
+cmd_drivers/auxdisplay/built-in.o :=  rm -f drivers/auxdisplay/built-in.o; /home/devnull/Lemon_S8/ndk/toolchains/arm-linux-androideabi-4.8/bin/arm-linux-androideabi-ar rcsD drivers/auxdisplay/built-in.o

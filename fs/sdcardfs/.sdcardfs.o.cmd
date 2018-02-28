@@ -1,0 +1,1 @@
+cmd_fs/sdcardfs/sdcardfs.o := /home/devnull/Lemon_S8/ndk/toolchains/arm-linux-androideabi-4.8/bin/arm-linux-androideabi-ld -EL    -r -o fs/sdcardfs/sdcardfs.o fs/sdcardfs/dentry.o fs/sdcardfs/file.o fs/sdcardfs/inode.o fs/sdcardfs/main.o fs/sdcardfs/super.o fs/sdcardfs/lookup.o fs/sdcardfs/mmap.o fs/sdcardfs/packagelist.o fs/sdcardfs/derived_perm.o 
