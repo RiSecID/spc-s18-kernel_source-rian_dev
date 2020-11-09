@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build:
    docker:
-      - image: ghost6482/android_kernel
+      - image: dereference23/kernel_arm
    steps:   
       - run:
           name: Checkout
@@ -17,8 +17,8 @@ jobs:
       - run:
           name: Pack & Upload
           command: |
-           export ZIPNAME=positron-P-$(date +%Y%m%d)-marmite.zip
-           git clone https://github.com/ghost6482/AnyKernel3.git --branch=marmite --depth=1
+           export ZIPNAME=positron-P-$(date +%Y%m%d)-spc.zip
+           git clone https://github.com/dereference23/AnyKernel3.git --branch=marmite --depth=1
            cp out/arch/arm/boot/Image.gz-dtb AnyKernel3
            cd AnyKernel3
            zip -r9 $ZIPNAME * -x .git README.md *placeholder
